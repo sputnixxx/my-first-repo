@@ -11,3 +11,23 @@ h1 {
 p {
   color: #6b5c57;
 }
+
+
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 0 20px #000;
+    z-index: 100;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    padding: 1em;
+    display: inline-block;
+    text-decoration: none;
+}
