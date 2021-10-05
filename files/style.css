@@ -82,22 +82,16 @@ nav a {
   font-weight: 300;
 }
 
-/* Help
+/* Contact
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.get-help {
-  border-bottom: 1px solid #ddd;
+.section.contact {
+    background: #202020;
+    color: #fff;
+}
+.section.contact p {
+    color: #fff;
 }
 
-/* Categories
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.categories {
-  background-image: url('../images/values-bg.jpg');
-  background-size: cover;
-  color: #fff;
-}
-.categories .section-description { 
-  margin-bottom: 4rem;
-}
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
