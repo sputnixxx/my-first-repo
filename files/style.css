@@ -6,7 +6,12 @@ padding: 0;
 h1 {
   font-size: 40px;
   font-weight: bold;
-  color: #7c0000;
+  color: #22b2de;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #22b2de;
 }
 p {
   color: #6b5c57;
