@@ -11,3 +11,140 @@ h1 {
 p {
   color: #6b5c57;
 }
+<<<<<<< Updated upstream
+=======
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 0 40px -20px #000;
+    z-index: 100;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    padding: 1em;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.row + .row {
+  margin-top: 40px;
+}
+
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section.values {
+  text-align: center;
+}
+.values {
+  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  color: #fff;
+  opacity: .8;
+  font-weight: 300;
+}
+
+
+/* Partner
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.partners {
+    display: flex;
+    width: 100%;
+    gap: 2em;
+}
+.partners > .partner {
+    flex: 1 1 auto;
+    width: 100%;
+    opacity: 0.6;
+    transition: 0.3s ease 0s;
+}
+.partners > .partner:hover {
+    opacity: 1;
+}
+
+
+
+/* Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section.contact {
+    background: #202020;
+    color: #fff;
+}
+.section.contact p {
+    color: #fff;
+}
+
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .section {
+    padding: 14rem 0 15rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0 19rem;
+  }
+}
+>>>>>>> Stashed changes
