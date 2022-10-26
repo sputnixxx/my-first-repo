@@ -4,6 +4,7 @@
 	<title>🔥 My first site, its on fire!</title>
 	<link type="text/css" rel="stylesheet" href="./files/normalize.css">
 	<link type="text/css" rel="stylesheet" href="./files/skeleton.css">
+	<link type="text/css" rel="stylesheet" href="./files/blobz.min.css">
 	<link type="text/css" rel="stylesheet" href="./files/style.css">
 
 	<!-- favicon -->
@@ -19,7 +20,6 @@
 			<a href="#about">About</a>
 			<a href="#contact">Contact</a>
 		</nav>
-
 	</header>
 
 	<div class="section hero">
@@ -32,9 +32,11 @@
 					<a class="button button-primary" href="#contact">Button</a>
 			  </div>
 			  <div class="one-half column">
-				<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-				  <path fill="#22B2DE" d="M47.4,-57.3C61.5,-44.7,73,-29.8,76.8,-12.9C80.5,4,76.5,22.9,66.6,37.1C56.8,51.3,41.2,60.8,25.5,63.9C9.7,67,-6.1,63.7,-21.1,58.2C-36,52.6,-50,44.8,-59.6,32.4C-69.2,20,-74.5,3,-70.5,-11.2C-66.6,-25.4,-53.4,-36.7,-40.1,-49.4C-26.8,-62.2,-13.4,-76.4,1.6,-78.4C16.6,-80.3,33.3,-69.9,47.4,-57.3Z" transform="translate(100 100)" />
-				</svg>
+				<div class="tk-blob" style="--time: 40s; --amount: 15; --fill: #22B2DE;">
+				  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 341.4 374.7">
+				    <path d="M309.9 70.6c37.8 52.7 39.8 128.7 15.4 184.1-24.3 55.4-75 90.1-125.4 107.4-50.4 17.4-100.4 17.4-136.2-3.3-35.7-20.7-57.2-62-62.4-102.1-5.2-40.2 5.8-79 29.1-128.3C53.6 79.1 89.1 19.3 143.7 4.1 198.3-11.2 272 18 309.9 70.6z"></path>
+				  </svg>
+				</div>
 			  </div>
 			</div>
 		</div>
@@ -66,9 +68,11 @@
 		<div id="about" class="container">
 			<div class="row">
 			  <div class="one-half column">
-				<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-				  <path fill="#22B2DE" d="M41.5,-50.6C53.5,-39.4,62.8,-26,68.8,-9.6C74.7,6.9,77.3,26.5,69.8,41C62.3,55.6,44.7,65,26.1,71.9C7.5,78.7,-12.1,82.9,-26.6,76.2C-41.1,69.6,-50.5,52.1,-57.3,35.4C-64.1,18.8,-68.4,3,-68.3,-14.6C-68.2,-32.1,-63.7,-51.4,-51.6,-62.6C-39.5,-73.8,-19.8,-76.9,-2.5,-73.9C14.7,-70.9,29.5,-61.8,41.5,-50.6Z" transform="translate(100 100)" />
-				</svg>
+				<div class="tk-blob" style="--time: 40s; --amount: 10; --fill: #22B2DE;">
+				  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320.6 343.9">
+				    <path d="M275.9 63.1c30.7 37.3 50.9 84.2 43 126.9-7.9 42.7-44.1 81.2-93 112.1C177 332.9 115.2 356 70.9 337 26.5 317.9-.4 256.7 0 204.6c.4-52 28-95 59.7-132.5C91.4 34.5 127.1 2.3 165.5.1c38.5-2.2 79.7 25.7 110.4 63z"></path>
+				  </svg>
+				</div>
 			  </div>
 			  <div class="one-half column" >
 				<h2>About</h2>
@@ -83,7 +87,7 @@
 		</div>
 	</div>
 
-	<div class="section contact">
+	<footer class="section contact">
 		<div id="contact" class="container">
 			<div class="row">
 			  <div class="one-half column">
@@ -93,14 +97,16 @@
 					</p>
 			  </div>
 			  <div class="one-half column">
-				<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-				  <path fill="#22B2DE" d="M45.4,-55.9C58.6,-43,69,-28.5,75.2,-10.6C81.5,7.2,83.8,28.4,74.6,42.1C65.5,55.7,45.1,61.8,25.3,68.5C5.6,75.1,-13.6,82.5,-28.9,77.7C-44.3,72.9,-55.9,55.9,-61.2,39.1C-66.4,22.2,-65.3,5.4,-64,-12.9C-62.7,-31.3,-61.2,-51.2,-50.5,-64.6C-39.8,-77.9,-19.9,-84.5,-1.9,-82.2C16.1,-79.9,32.2,-68.7,45.4,-55.9Z" transform="translate(100 100)" />
-				</svg>
+
+				<div class="tk-blob" style="--time: 40s; --amount: 10; --fill: #22B2DE;">
+				  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412.3 354.7">
+				    <path d="M320.8 58.4c47.1 38.8 97.8 95 90.8 143s-71.7 87.7-138.3 117.2c-66.5 29.5-134.7 48.7-186.4 26.5C35.3 322.9.3 259.3 0 203.3-.3 147.4 34.1 99.2 71 62.8 107.9 26.3 147.2 1.7 188.7.1c41.4-1.7 84.9 19.6 132.1 58.3z"></path>
+				  </svg>
+				</div>
 			  </div>
 			</div>
 		</div>
-	</div>
-
+	</footer>
 
 </body>
 </html>
